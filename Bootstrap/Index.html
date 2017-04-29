@@ -18,22 +18,25 @@
 </head>
 
 <body>
+    /*-----Contenedor principal-------*/
     <div class="container">
+        /*-----Fila del encabezado-------*/
         <div class="row">
-            <div class="col-xs-3">
+            /*-----Div del icono-------*/
+            <div class="col-xs-12 col-lg-3 col-md-3 col-sm-3">
                 <img src="multimedia/icono.png">
             </div>
-            <div class="col-xs-4 pull-right">
-                <div class="btn-group pull-right">
+            /*-----Div para los botones de redes sociales-------*/
+            <div class="col-xs-12 col-lg-4 col-md-4 col-sm-5 pull-right">
+                <div class="btn-group pull-right ">
                     <a href="#" class="btn btn-default"><img src="multimedia/Facebook.png"></a>
                     <a href="#" class="btn btn-default"><img src="multimedia/Instagram.png"></a>
                     <a href="#" class="btn btn-default"><img src="multimedia/Twitter.png"></a>
                     <a href="#" class="btn btn-default"><img src="multimedia/Youtube.png"></a>
                 </div>
-
             </div>
         </div>
-        <br>
+        /*-----Barra de navegacion-------*/
         <nav class="navbar navbar-inverse nav-style">
             <div class="container-fluid">
                 <ul class="nav navbar-nav">
@@ -45,10 +48,45 @@
                 </ul>
             </div>
         </nav>
+        /*-----Fila para separar la seccion de noticias y el buscador-------*/
+        <div class="row container-fluid">
+            /*-----Seccion de noticias-------*/
+            <div class="col-lg-9 col-md-9 izquierda">
+                /*-----Fila para noticia 1-------*/
+                <div class="row container-fluid">
+                    <div class="col-lg-6 margen">
+                        <img src="multimedia/Blink182.png" class="img-responsive center-block">
+                    </div>
+                    <div class="col-lg-6 margen text-justify">
+                        <h3 class="text-left">Blink 182 se reencuentra</h3>Siendo el día 182 del año y tal como se había anunciado, Blink 182 lanzó el día de hoy su nuevo álbum “California”. Esta nuevo álbum representa una nueva etapa en la banda, tras la salida del guitarrista Tom DeLonge, quien se alejó
+                        de la banda para poder estudiar a los ovnis, y fue reemplazado por el guitarrista de Alkaline Trio, Matt Skiba.Desde el anuncio de este nuevo material se han ido soltando algunos singles del disco, tales como: "Bored To Death"
+                        y "Rabbit Hole", incluso el primero ya cuenta con videoclip. Este álbum pone fin a un silencio discográfico de cinco años, pues lo último de la banda fue “Neighborhoods” en 2011.
+                    </div>
+                </div>
+                /*-----Fila para noticia 2-------*/
+                <div class="row container-fluid">
+                    <div class="col-lg-6 margen text-justify">
+                        <h3 class="text-left">Metallica en lollapalooza</h3>Cuando se tienen más de tres décadas de carrera, a algunos artistas les es difícil disimular el entusiasmo que genera saber que aun después de tantos años todavía quedan algunos cartuchos por quemar. Después de un período de discos
+                        con resultados regulares, la versión 2017 de Metallica exuda confianza en sí misma gracias a Hardwired. to Self-Destruct, el disco doble publicado en el 2016 con el que la banda pudo recuperar el vigor de su época de oro a fuerza
+                        de metal sin concesiones.Y es ese mismo orgullo el que hizo que seis de las canciones de su décimo álbum ocupasen un rol central en la lista de temas de su primera experiencia como cabeza de cartel de la edición local de Lollapalooza
+                        .
+                    </div>
+                    <div class="col-lg-6 margen">
+                        <img src="multimedia/metallica.jpg" class="img-responsive center-block">
+                    </div>
+                </div>
+            </div>
+            /*-----buscador de la derecha-------*/
+            <div class="col-lg-3 col-md-3 derecha">DOS</div>
+        </div>
+
+
+
     </div>
 
     <script src="js/jquery.js"></script>
     <script src="bootstrap.min.js"></script>
+    <div class="clearfix"></div>
 </body>
 
 </html>
