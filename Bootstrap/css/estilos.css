@@ -1,6 +1,7 @@
 .container{
 margin-top: 10px;
-
+margin-bottom: 10px;
+color: #f1ecf2;
 }
 
 .nav-style{
@@ -30,15 +31,18 @@ text-align: right;
 background-color: #295219;
 }
 .izquierda{
-background-color: rgb(30, 228, 189) ;
+background-color: #262522 ;
 }
 .margen{
-  margin: 0;
+margin: 0;
 padding-left: 0;
 padding-right: 15px;
 padding-top: 10px;
 padding-bottom: 10px;
 }
 h3{
-margin-top: 0; 
+margin-top: 0;
+}
+span{
+  font-size: 50px;
 }
