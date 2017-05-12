@@ -28,7 +28,8 @@ padding-top: 80px;
 text-align: right;
 }
 .derecha{
-background-color: #295219;
+margin-top: 20px;
+color: #010400;
 }
 .izquierda{
 background-color: #262522 ;
@@ -43,6 +44,9 @@ padding-bottom: 10px;
 h3{
 margin-top: 0;
 }
-span{
+.usuario{
   font-size: 50px;
+}
+.border{
+border-radius: 5px; 
 }
