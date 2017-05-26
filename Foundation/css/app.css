@@ -1,14 +1,71 @@
 .margen{
-padding: 2px;
-}
+color: #ffffff;
 
+}
+body{
+background-image: url("multimedia/fondo.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h3{
+font-family: 'Gloria Hallelujah', cursive;
+}
 h4{
 font-family: 'Gloria Hallelujah', cursive;
 }
 h5{
 font-family: 'Gloria Hallelujah', cursive;
 }
-.imagen-fondo{
+.fondo{
 margin-top: 10px;
 border-radius: 10px;
+background-color: #3d3c3d;
+opacity: 0.8;
+}
+
+#panel{
+background-color: #57a4f5;
+border-radius: 5px;
+margin-top: 5px;
+}
+#lista{
+font-family: 'Gloria Hallelujah', cursive;
+font: #fbfcfc;
+border-color: #ffffff;
+
+}
+.item{
+color: #ffffff;
+border-color: #ffffff;
+border-style: solid;
+border-radius: 5px;
+}
+.search{
+margin-top: 10px;
+}
+.button{
+text-align: left;
+}
+#galeria{
+margin-top: 10px;
+}
+.item-historial{
+color: #ffffff;
+}
+.fondo-azul-claro{
+background-color: #84d2f4;
+border-radius: 5px;
+margin-top: 5px;
+padding: 15px;
+}
+p{
+text-align: justify;
+}
+.centrar{
+margin-left: 60px;
+}
+.margen0{
+  margin: 0;
+  padding: 0;
 }

@@ -2,36 +2,141 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundation</title>
-    <link rel="stylesheet" href="css/foundation.min.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundation</title>
+  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 
-    <body>
-        <div class="row imagen-fondo">
-            <div class="column large-3 medium-3 small-11 izquierda margen">
-                <div class="float-left margen">
-                    <h4>El sabor costeño</h4>
-                </div>
-                <div class="float-right margen">
-                    <h5>"La mejor comida</h5>
-                    <h5>&nbspcosteña"</h5>
-                </div>
-            </div>
-            <div class="column large-9 medium-9 small-12 derecha">
-                DOS
-            </div>
+  <body>
+    <!---encabezado--->
+    <div class="row fondo">
+      <div class="row">
+        <div class="column large-3 medium-3 small-11 margen">
+          <div class="float-left">
+            <h4>El sabor costeño</h4>
+          </div>
+          <div class="float-right">
+            <h5>"La mejor comida</h5>
+            <h5>&nbspcosteña"</h5>
+          </div>
         </div>
+        <div class="column large-9 medium-9 small-1">
+        </div>
+      </div>
+      <!---fin del encabezado--->
+      <!---panel izquierdo--->
+      <div class="row" id="section">
+        <div class="column large-4">
+          <div class="row hide-for-small-only hide-for-medium-only" id="panel">
+            <div class="column">
+              <div class="row collapse search">
+                <div class="small-11 columns">
+                  <input type="text" placeholder="Buscar...">
+                </div>
+                <div class="small-1 columns">
+                  <span class="button"><i class="step fi-magnifying-glass" id="buscar"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <ul class="menu vertical expanded" id="lista">
+                <li class="item"><a href="#" class="button item">inicio</a></li>
+                <li class="item"><a href="#" class="button item">Mi plato preferido</a></li>
+                <li class="item"><a href="#" class="button item">Mis recetas</a></li>
+              </ul>
+            </div>
+            <div class="column" id="galeria">
+              <h4>Favoritos:</h4>
+              <div class="row">
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/proteinas.jpg" alt=""></a></div>
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/carbohidratos.jpg" alt=""></a></div>
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/verduras.jpg" alt=""></a></div>
+              </div>
+              <div class="row">
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/frutas.jpg" alt=""></a></div>
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/granos.jpg" alt=""></a></div>
+                <div class="column large-4"><a class="thumbnail" href="#"><img src="css/multimedia/todos.jpg" alt=""></a></div>
+              </div>
+            </div>
+            <div class="column" id="historial">
+              <h4>Historial</h4>
+              <ul class="menu vertical expanded">
+                <li><a class="item-historial" href="#">Dietas hipercaloricas</a></li>
+                <li><a class="item-historial" href="#">Dietas hipocalorias</a></li>
+                <li><a class="item-historial" href="#">Para que sirven las proteinas?</a></li>
+                <li><a class="item-historial" href="#">Para que sirven los carbohidratos?</a></li>
+                <li><a class="item-historial" href="#">Para que sirven los aminoacidos?</a></li>
+                <li><a class="item-historial" href="#">Que canitadad de agua tomar al dia?</a></li>
+                <li><a class="item-historial" href="#">Si tomo mucha agua adelgazo?</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!---Fin panel izquierdo--->
+        <!---Panel derecho--->
+        <div class="column large-8 medium-9 small-1">
+          <div class="column fondo-azul-claro">
+            <div class="row">
+              <div class="column large-12">
+                <h4>Tortellini de Queso con colombinas de pollo</h4>
+                <h5>&nbsp10/02/2017</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column large-12">
+                <img class="thumbnail" src="css/multimedia/pastas.jpg" alt="">
+                <p>Cocinamos los Tortellini de queso Doria por 16 minutos en 1 litro de agua hirviendo ,por cada 100 gramos de pasta mezclamos 1 cucharadita de sal. Mientras se cocinan los Tortellini Doria, freímos la cebolla y el ajo en un sartén con aceite
+                  por 3 minutos. Agregamos las colombinas de pollo, la mostaza, la crema de leche y cocinamos por 10 minutos. Finalmente agregamos el huevo batido se mezcla rápido por dos minutos y retiramos del fuego. Se sirven en el plato los tortellini
+                  de queso Doria, le agregamos la salsa de pollo y espolvoreamos con el perejil y queso rallado.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column large-12 input-group">
+                <input class="input-group-field" type="text">
+                <div class="input-group-button">
+                  <input type="submit" class="button" value="Publicar">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column fondo-azul-claro">
+            <div class="row">
+              <div class="column large-12">
+                <h4>Carpaccio de salmón y bacalao con tomate</h4>
+                <h5>&nbsp24/05/2017</h5>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column large-12">
+                <img class="thumbnail centrar" src="css/multimedia/salmon.jpg" alt="">
+                <p>El eneldo es una de las mejores especias para combinar con salmón, de hecho puedes hacer una mezcla de aceite, eneldo, sal y limón para comer carpaccio de salmón crudo o salmón ahumado.Ahora tomamos de un extremo la placa de papel film
+                  y comenzamos a enrollar nuestras capas de pescado, cuando vallamos enrollando vamos apretando para que todo quede firme, una vez formado el rollito, llevamos a la nevera y lo dejamos reposar ahí por 30 minutos. La idea es crear un rulo
+                  de pescado marinado el cual dejaremos solidificar en el congelador para después cortar nuevas láminas que incluyen una mezcla de todos los sabores.Mientras tanto tomamos los tomates rojos y los ponemos a cocinar en agua hirviendo hasta
+                  que se suavicen.Una vez listos podemos hacer la salsa de tomate. Para ello, los colocamos en el vaso de la licuadora, añadimos un diente de ajo, un trozo de cebolla una pizca de sal y procedemos a licuar hasta obtener una mezcla homogénea.
+                  Reservar.Pasado el tiempo de reposo en la nevera, tomamos el rollito de pescado le quitamos la capa de plástico film y lo rebanamos en rodajas finas. Colocamos las rodajas en el plato y rociamos con jugo de limón dejando que marine durante
+                  unos 15 minutos. Colocamos el plato de nuevo en la nevera y reservamos. Para que el pescado compacte del todo, lo mejor es dejarlo en el congelador al menos unas 4-6 horas. Si no tienes este tiempo y quieres terminar la preparación más
+                  rápido, puedes cortar trozos más gruesos, como tacos y seguir el resto del procedimiento, como hemos hechos nosotros. La presentación no quedará como un carpaccio tradicional pero no dejará de ser un plato exquisito y muy elegante.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column large-12 input-group">
+                <input class="input-group-field" type="text">
+                <div class="input-group-button">
+                  <input type="submit" class="button" value="Publicar">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---Panel derecho--->
+      </div>
 
+    </div>
 
-
-
-        <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/vendor/what-input.min.js"></script>
-        <script src="js/foundation.min.js"></script>
-        <script src="js/app.js"></script>
-    </body>
+  </body>
+</head>
 
 </html>
