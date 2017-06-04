@@ -1,0 +1,24 @@
+.tamano{
+width: 100%;
+height: 100%;
+border-radius: 5px;
+}
+#contenedor{
+margin-top: 10px;
+}
+p{
+  margin: 0;
+}
+#centrar{
+text-align: justify;
+}
+#centrar-img{
+margin-top: 50px;
+}
+.bordes{
+border-radius: 5px;
+}
+body{
+background-image: url("multimedia/fondo.jpg");
+background-attachment: fixed;
+}

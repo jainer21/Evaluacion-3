@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog con Materialize</title>
+  <!--Importar Google Icon Fon-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Importar materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/estilos.css" media="screen,projection" />
+</head>
+
+<body>
+  <!--Importar jQuery antes de materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <div class="container" id="contenedor">
+    <div class="row">
+      <div class="col m2 l2">
+        <a href="#"><img src="css/multimedia/foto1.jpg" alt="" class="responsive-img tamano"></a>
+      </div>
+      <div class="col m10 l10">
+        <nav>
+          <div class="nav-wrapper cyan hide-on-small-only">
+            <ul id="nav-mobile" class="right">
+              <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+              <li><a href="#"><i class="material-icons left">navigation</i>Proximo Viaje</a></li>
+              <li><a href="#"><i class="material-icons left">stars</i>Mejores Viajes</a></li>
+              <li><a href="#"><i class="material-icons left">thumb_up</i>Recomendaciones</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12 l12 center flow-text">
+        <p class="white-text">Mis viajes por el mundo</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m1 l1 hide-on-small-only">
+        <ul>
+          <a href="#"><img src="css/multimedia/facebook.png" alt=""></a>
+          <a href="#"><img src="css/multimedia/Instagram.png" alt=""></a>
+          <a href="#"><img src="css/multimedia/YouTube.png" alt=""></a>
+          <a href="#"><img src="css/multimedia/Pinterest.png" alt=""></a>
+          <a href="#"><img src="css/multimedia/Twitter.png" alt=""></a>
+        </ul>
+      </div>
+      <div class="col m11 l11">
+        <div class="row">
+          <div class="col s12 m3 l3">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/desierto2.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/desierto.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/playa.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m5 l5">
+            <img src="css/multimedia/rio2.jpg" alt="" class="responsive-img z-depth-5">
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/rio.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/desierto3.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <img src="css/multimedia/desierto4.jpg" class="responsive-img z-depth-5">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col m9 l9">
+        <div class="row white">
+          <div class="col m4 l4" id="centrar-img">
+            <img src="css/multimedia/cuevas.jpg" class="responsive-img z-depth-5">
+          </div>
+          <div class="col m8 l8">
+            <h5 class="blue-grey-text text-darken-4">Cuevas de toluviejo</h5>
+            <div class="chip">
+              03 de mayo de 2017
+              <i class="close material-icons   ">date_range</i>
+            </div>
+            <div class="chip">
+              Toluviejo, Sucre
+              <i class="close material-icons">location_on</i>
+            </div>
+            <p class="blue-grey-text text-darken-4" id="centrar">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <div class="col m12 l12">
+            <p class="blue-grey-text text-darken-4" id="centrar"><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+        </div>
+        <div class="row blue-grey darken-4 bordes">
+          <form class="col s12 m12 l12">
+            <h5 class="white-text">Deja tu comentario</h5>
+            <div class="row">
+              <div class="input-field col s12 m6 l6">
+                <i class="material-icons prefix white-text">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label class="white-text" for="icon_prefix">Nombre</label>
+              </div>
+              <div class="input-field col s12 m6 l6">
+                <i class="material-icons prefix white-text">email</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label class="white-text" for="icon_telephone">Correo electronico</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <i class="material-icons prefix white-text">comment</i>
+                <input id="icon_comment" type="text" class="validate">
+                <label class="white-text" for="icon_comment">Comentario</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 l12">
+                <button class="btn waves-effect waves-light right cyan lighten-4 black-text" type="submit" name="action">Enviar
+              </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col m3 l3">
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card">
+              <div class="card-content">
+                <img src="css/multimedia/perfil.jpg" alt="" class="responsive-img circle">
+                <h5 class="center-align">Perfil del autor</h5>
+              </div>
+              <div class="card-action">
+                <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

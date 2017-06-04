@@ -69,3 +69,13 @@ margin-left: 60px;
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width:640px){
+  .centrar{
+  margin-left: auto;
+  }
+}
+@media screen and (width:1024px){
+  .centrar{
+  margin-left: 20px;
+  }
+}
